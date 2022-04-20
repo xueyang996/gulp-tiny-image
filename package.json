@@ -1,0 +1,21 @@
+{
+  "name": "gulp-tiny-image",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:xueyang996/gulp-tiny-image.git",
+  "author": "zhangmingrui <mingrui.zhang@cyberserval.cn>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx gulp"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-tinypng-extended": "^3.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.7"
+  }
+}
